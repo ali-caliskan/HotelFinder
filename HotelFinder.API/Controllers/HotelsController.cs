@@ -13,9 +13,9 @@ namespace HotelFinder.API.Controllers
 	{
 		private IHotelService _hotelservice;
 
-		public HotelsController()
+		public HotelsController(IHotelService hotelService)
 		{
-			_hotelservice = new HotelManager();
+			_hotelservice = hotelService;
 		}
 
 		[HttpGet]
@@ -30,5 +30,22 @@ namespace HotelFinder.API.Controllers
 			return _hotelservice.GetHotelById(id);
 		}
 
+		[HttpPost]
+		public Hotel Post([FromBody]Hotel hotel)
+		{
+			return _hotelservice.CreateHotel(hotel);
+		}
+
+		[HttpPut] // Güncelleme
+		public Hotel Put([FromBody] Hotel hotel)
+		{
+			return _hotelservice.UpdateHotel(hotel);
+		}
+
+		[HttpDelete("{id}")] //Silme methodu
+		public void Delete(int id)
+		{
+		 _hotelservice.DeleteHotel(id);
+		}
 	}
 }

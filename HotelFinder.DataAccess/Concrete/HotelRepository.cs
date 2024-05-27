@@ -52,6 +52,7 @@ namespace HotelFinder.DataAccess.Concrete
 			using (var hotelDbContext = new HotelDbContext())
 			{
 				hotelDbContext.Hotels.Update(hotel);
+				hotelDbContext.SaveChanges();	
 				return hotel;
 			}
 		}

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinder.Entities", "Hot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinder.DataAccess", "HotelFinder.DataAccess\HotelFinder.DataAccess.csproj", "{51A5BC7C-59A6-4784-8D44-624801511E08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinder.Business", "HotelFinder.Business\HotelFinder.Business.csproj", "{AB2492AC-3DB9-4C49-90EE-8322557017EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinder.API", "HotelFinder.API\HotelFinder.API.csproj", "{950C7056-38EB-44A7-913A-92052DB52D36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{51A5BC7C-59A6-4784-8D44-624801511E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A5BC7C-59A6-4784-8D44-624801511E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A5BC7C-59A6-4784-8D44-624801511E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2492AC-3DB9-4C49-90EE-8322557017EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2492AC-3DB9-4C49-90EE-8322557017EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2492AC-3DB9-4C49-90EE-8322557017EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2492AC-3DB9-4C49-90EE-8322557017EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950C7056-38EB-44A7-913A-92052DB52D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950C7056-38EB-44A7-913A-92052DB52D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950C7056-38EB-44A7-913A-92052DB52D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950C7056-38EB-44A7-913A-92052DB52D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
